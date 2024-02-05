@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="screen">
+            <div id="value">
+                <div id="number">
+                    0
+                </div>
+                
+
+            </div>
+            <div id="back">
+                <img src="Images/backspace.png" onclick="remove()" alt="" id="backspace">
+            </div>
+
+        </div>
+        <div class="buttonArea">
+            <div class="buttonRow">
+                <button onclick="clearAll()" id="clear">
+                    C
+                </button>
+                <button id="braces">
+                    ()
+                </button>
+                <button id="percent">
+                    %
+                </button>
+                <button id="divide">
+                    /
+                </button>
+            </div>
+            <div class="buttonRow">
+                <button onclick="add(this)" id="7">
+                    7
+                </button>
+                <button onclick="add(this)" id="8">
+                    8
+                </button>
+                <button onclick="add(this)" id="9">
+                    9
+                </button>
+                <button id="multiply">
+                    x
+                </button>
+            </div>
+            <div class="buttonRow">
+                <button onclick="add(this)" id="4">
+                    4
+                </button>
+                <button onclick="add(this)" id="5">
+                    5
+                </button>
+                <button onclick="add(this)" id="6">
+                    6
+                </button>
+                <button id="minus">
+                    −
+                </button>
+            </div>
+            <div class="buttonRow">
+                <button onclick="add(this)" id="1">
+                    1
+                </button>
+                <button onclick="add(this)" id="2">
+                    2
+                </button>
+                <button onclick="add(this)" id="3">
+                    3
+                </button>
+                <button onclick="add(this)" id="add">
+                    +
+                </button>
+            </div>
+            <div class="buttonRow">
+                <button id="something">
+                    +/-
+                </button>
+                <button onclick="add(this)" id="0">
+                    0
+                </button>
+                <button id="dot">
+                    .
+                </button>
+                <button id="equal">
+                    =
+                </button>
+            </div>
+            
+            
+        </div>
+    </div>
+    
+    <script src="myScript.js"></script>
+</body>
+</html>
