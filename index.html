@@ -13,14 +13,16 @@
                 <div id="number">
                     0
                 </div>
-                
+                              
 
             </div>
+            
             <div id="back">
                 <img src="Images/backspace.png" onclick="remove()" alt="" id="backspace">
             </div>
 
         </div>
+         
         <div class="buttonArea">
             <div class="buttonRow">
                 <button onclick="clearAll()" id="clear">
@@ -32,7 +34,7 @@
                 <button id="percent">
                     %
                 </button>
-                <button id="divide">
+                <button onclick="addSign(this)" id="divide">
                     /
                 </button>
             </div>
@@ -46,7 +48,7 @@
                 <button onclick="add(this)" id="9">
                     9
                 </button>
-                <button id="multiply">
+                <button onclick="addSign(this)" id="multiply">
                     x
                 </button>
             </div>
@@ -60,7 +62,7 @@
                 <button onclick="add(this)" id="6">
                     6
                 </button>
-                <button id="minus">
+                <button onclick="addSign(this)" id="minus">
                     −
                 </button>
             </div>
@@ -74,7 +76,7 @@
                 <button onclick="add(this)" id="3">
                     3
                 </button>
-                <button onclick="add(this)" id="add">
+                <button onclick="addSign(this)" id="add">
                     +
                 </button>
             </div>
@@ -85,7 +87,7 @@
                 <button onclick="add(this)" id="0">
                     0
                 </button>
-                <button id="dot">
+                <button onclick="addSign(this)" id="dot">
                     .
                 </button>
                 <button id="equal">
